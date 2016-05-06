@@ -1,0 +1,25 @@
+{
+  "name": "brewerydb-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarket/brewerydb-proxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbarket/brewerydb-proxy/issues"
+  },
+  "homepage": "https://github.com/jbarket/brewerydb-proxy#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "install": "^0.6.1",
+    "npm": "^3.8.7",
+    "request": "^2.72.0"
+  }
+}
