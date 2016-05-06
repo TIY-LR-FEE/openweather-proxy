@@ -16,7 +16,7 @@ app.get('*', function(req, res) {
   parsedUrl.search = null;
   req.url = url.format(parsedUrl);
 
-  request('https://api.openweathermap.org' + req.url, function (error, response, body) {
+  request('http://api.openweathermap.org/' + req.url, function (error, response, body) {
     if (!error && response.statusCode === 200) {
       res.send(body);
     }
